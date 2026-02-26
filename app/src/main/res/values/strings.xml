@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BarcodescannerApp</string>
+
+    <string name="load_sample_sheet">Load Sample Sheet</string>
+    <string name="label_whole_rack">Label Whole Rack</string>
+    <string name="find_sample">Find Sample</string>
+    <string name="output_here">Output appears here…</string>
+    <string name="About_description">The app processes static images of cryotube racks (96-well format), taken with a common flatbed-scanner. It detects and decodes the 2D DataMatrix barcodes on a per-well basis, integrates them with isolate names/IDs from an Excel file, and produces annotated visual outputs that supports both full-rack annotation and targeted sample localization.</string>
+    <string name="about">About</string>
+    <string name="cryobank_support">Cryostorage Support</string>
+    <string name="version">Version</string>
+    <string name="year_name_">© 2026 Christina Witz</string>
+    <string name="main_title">MicArch</string>
+    <string name="button_live_rack_scan">Coming soon: Take a Picture</string>
+    <string name="button_barcode_merging">Barcode Merging</string>
+    <string name="button_sample_finder">Sample Finder</string>
+    <string name="about_app">About App</string>
+    <string name="title_barcode_merging">Barcode Merging</string>
+    <string name="button_select_images">Select Images</string>
+    <string name="button_select_excel_file">Select Excel file</string>
+    <string name="button_merge">Merge</string>
+    <string name="button_export_excel">Export Excel</string>
+    <string name="title_sample_finder">Sample Finder</string>
+    <string name="button_select_rack_image">Select Rack Image</string>
+    <string name="button_find_sample">Search for Sample</string>
+    <string name="button_annotate_whole_plate">Annotate Whole Plate</string>
+    <string name="process_bar">Working…</string>
+    <string name="button_scan">Take Picture</string>
+    <string name="overlay">Overlay</string>
+    <string name="subtitle">Microbe Archiving</string>
+</resources>

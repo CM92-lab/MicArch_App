@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Schneeflocke mittig -->
+    <item
+        android:drawable="@drawable/ic_cryo_foreground"
+        android:gravity="top"
+        android:width="60dp"
+        android:height="60dp"/>
+
+    <item
+        android:width="90dp"
+        android:height="90dp"
+        android:drawable="@drawable/ic_cryo_icon"
+        android:gravity="center" />
+
+
+</layer-list>
