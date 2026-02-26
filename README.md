@@ -187,9 +187,11 @@ Annotated images can be displayed within the app and optionally exported for doc
 
 ## Example Data
 
-- `96-well-template.xlsx` – Central Excel file
-- `Scanning.jpg` - Scanning process example
-- `Test_image1.jpg`, `Test_image2.jpg`, `Test_image3.jpg` – Example rack scan images
+- [96-well-template.xlsx](./96-well-template.xlsx) – Central Excel file
+- [Scanning.jpg](./images/Scanning.jpg) - Scanning process example
+- [Test_image1.jpg](./images/Test_image1.jpg) – Example rack scan images
+- [Test_image2.jpg](./images/Test_image2.jpg)
+- [Test_image3.jpg](./images/Test_image3.jpg)  
 
 These files illustrate the required data structure for proper use.
 
@@ -244,3 +246,4 @@ If you use MicArch in academic work, please cite:
 ## License
 
 MIT License
+
