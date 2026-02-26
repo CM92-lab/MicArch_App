@@ -243,3 +243,4 @@ If you use MicArch in academic work, please cite:
 
 ## License
 
+MIT License
