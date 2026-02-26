@@ -1,6 +1,5 @@
 # MicArch - Microbe Archiving App  
 MicArch is an Android-based app developed for any Android mobile device to support barcode-based long-term cryostorage management. 
-Mobile barcode integration with sample localization tool for cryogenic storage workflows.
 
 The application decodes 2D DataMatrix barcodes from cryotubes arranged in 96-well SBS racks using static flatbed-scanner images. Decoded barcodes are matched with strain identifiers stored in a central Excel file, enabling automated rack annotation and rapid sample localization.
 
@@ -15,6 +14,13 @@ The system is:
 - Hardware-independent (any Android device)
 - Compatible with standard flatbed scanner images
 - Easily integrable into existing laboratory workflows
+
+
+## Scientific Context
+
+MicArch was developed as part of a Master's thesis project focused on improving traceability, reproducibility, and efficiency in cryogenic sample storage workflows.
+The application demonstrates that robust barcode-based cryostorage management can be implemented using open mobile platforms and widely available laboratory equipment.
+
 
 ---
 
@@ -39,6 +45,11 @@ All computational tasks are executed off the main UI thread using Kotlin corouti
 - Fault-tolerant per-well decoding
 - Explicit nullable type handling
 - Clean separation between decoding and metadata integration
+
+### App Flowchart
+
+![Flowchart](images/Flowchart.png)
+
 
 ---
 
@@ -102,6 +113,11 @@ This design allows barcode decoding and metadata annotation to remain logically 
 
 ## Functional Modules
 
+![Main](images/Main.jpg)
+
+![About](images/About.jpg)
+
+
 ### 1. Barcode Merging Tool
 
 - Decodes rack barcodes
@@ -161,7 +177,7 @@ Annotated images can be displayed within the app and optionally exported for doc
 
 ## Installation
 
-### Option 1: Build from Source
+### Build from Source
 
 1. Clone the repository
 2. Open in Android Studio
@@ -171,10 +187,9 @@ Annotated images can be displayed within the app and optionally exported for doc
 
 ## Example Data
 
-The folder `sample_data/` contains:
-
-- `96-well-template.xlsx` – Demonstration metadata file  
-- `Test_image1.jpg` – Example rack scan
+- `96-well-template.xlsx` – Central Excel file
+- `Scanning.jpg` - Scanning process example
+- `Test_image1.jpg`, `Test_image2.jpg`, `Test_image3.jpg` – Example rack scan images
 
 These files illustrate the required data structure for proper use.
 
@@ -190,7 +205,9 @@ These files illustrate the required data structure for proper use.
 - Uniform lighting
 - No perspective distortion
 
-![Test_image1](images/Test_image1.jpg)
+![Scanning](images/Scanning.jpg)
+
+![Test_image2](images/Test_image2.jpg)
 
 ---
 
@@ -225,3 +242,4 @@ If you use MicArch in academic work, please cite:
 ---
 
 ## License
+
